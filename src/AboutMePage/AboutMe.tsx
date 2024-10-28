@@ -26,7 +26,7 @@ export default function AboutMe() {
                     <p >About Me</p>
                 </div>
 
-                <img src={"./public/AboutMe/Head.png"} alt={"1"}/>
+                <img src={"./src/assets/AboutMe/Head.png"} alt={"Head"}/>
 
                 <p className={"meText"}></p>
 
