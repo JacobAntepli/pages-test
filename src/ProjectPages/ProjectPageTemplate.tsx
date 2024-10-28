@@ -47,7 +47,7 @@ export default function ProjectPageTemplate(props:{
     return(
         <div className={"container"}  id={props.id}>
             <div className={"project"}>
-                <div src={"src/assets/GeneralAssets/Background.png"} alt={"BACKGROUND"} className={"backgroundProj"} style={{filter:props.hue}}/>
+                <div className={"backgroundProj"} style={{filter:props.hue}}/>
                 <div className={"ribbon"}>
                     <p className={"ribbonTextHeader"}>Role:
                         <p className={"ribbonText"}>{props.role}</p>
