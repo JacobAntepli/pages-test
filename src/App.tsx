@@ -1,35 +1,102 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
 import './App.css'
+//import ProjectThumbnailTemplate from "./ProjectThumbnail/ProjectThumbnailTemplate.tsx";
+import NavBar from "./NavBar/NavBar.tsx";
+import MainPage from "./MainPage/MainPage.tsx";
+import {
+    createBrowserRouter, Outlet, RouterProvider,
+} from "react-router-dom";
+import RRPage from "./ProjectPages/RRPage.tsx";
+
+import * as React from "react";
+import AllProjectsPage from "./AllProjectsPage/AllProjectsPage.tsx";
+import AboutMe from "./About Me Page/AboutMe.tsx";
+import DFPage from "./ProjectPages/DFPage.tsx";
+import BrighamPage from "./ProjectPages/BrighamPage.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    const router = createBrowserRouter([
+        {
+            children: [
+                {
+                    path: "/pages-test/",
+                    element: (
+                        <>
+
+                            <MainPage/>
+                            <Layout/>
+
+                        </>
+                    ),
+                },
+
+                {
+                    path: "/pages-test/AllProjects",
+                    element: (
+                        <>
+
+                            <AllProjectsPage/>
+                            <Layout/>
+                        </>
+                    ),
+                },
+                {
+                    path: "/pages-test/AboutMe",
+                    element: (
+                        <>
+
+                            <AboutMe/>
+                            <Layout/>
+                        </>
+                    ),
+                },
+                {
+                    path: "/pages-test/RockOnRacoon",
+                    element: (
+                        <>
+
+                            <RRPage/>
+                            <Layout/>
+                        </>
+                    ),
+                },
+                {
+                    path: "/pages-test/DragonFly",
+                    element: (
+                        <>
+
+                            <DFPage/>
+                            <Layout/>
+                        </>
+                    ),
+                },
+                {
+                    path: "/pages-test/Brigham",
+                    element: (
+                        <>
+                            <BrighamPage/>
+                            <Layout/>
+                        </>
+                    ),
+                },
+            ],
+        },
+    ]);
+    return(
+        <RouterProvider router={router}/>
+    )
 }
 
+function Layout() {
+    return(
+      <>
+          <NavBar/>
+          <Outlet/>
+      </>
+    );
+
+}
 export default App

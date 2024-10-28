@@ -1,0 +1,32 @@
+
+.background{
+    background-image: url("../assets/GeneralAssets/Background.png");
+    background-size: cover;
+    position: fixed;
+    padding-top: 115px;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.header{
+    font-family: "Garamond", serif;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: -15px;
+    color: rgba(250,228,142,100);
+    margin-bottom: -20px;
+}
+
+.buffer{
+    height: 200px;
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
