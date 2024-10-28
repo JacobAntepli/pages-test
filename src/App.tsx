@@ -9,8 +9,6 @@ import {
     createBrowserRouter, Outlet, RouterProvider,
 } from "react-router-dom";
 import RRPage from "./ProjectPages/RRPage.tsx";
-
-import * as React from "react";
 import AllProjectsPage from "./AllProjectsPage/AllProjectsPage.tsx";
 import AboutMe from "./About Me Page/AboutMe.tsx";
 import DFPage from "./ProjectPages/DFPage.tsx";
