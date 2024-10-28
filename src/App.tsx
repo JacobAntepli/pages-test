@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import RRPage from "./ProjectPages/RRPage.tsx";
 import AllProjectsPage from "./AllProjectsPage/AllProjectsPage.tsx";
-import AboutMe from "./About Me Page/AboutMe.tsx";
+import AboutMe from "./AboutMePage/AboutMe.tsx";
 import DFPage from "./ProjectPages/DFPage.tsx";
 import BrighamPage from "./ProjectPages/BrighamPage.tsx";
 

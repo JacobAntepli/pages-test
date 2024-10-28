@@ -32,7 +32,8 @@
 
 .ribbon{
     background-image: url("../assets/ProjectsAssets/Ribbon2.png");
-    background-size: cover;
+    background-size: 100% 100%;
+
     padding-top: 5px;
     height: 609px;
     width: 168px;
@@ -189,7 +190,7 @@
 .funFact{
     font-size: 20px;
     width: 500px;
-   
+
 }
 
 .linkBar{
@@ -199,6 +200,15 @@
     gap: 10px;
 }
 
+
+@media (max-width: 1024px) {
+    .pTitle{
+        font-size: 60px;
+    }
+
+
+    
+}
 
 
 

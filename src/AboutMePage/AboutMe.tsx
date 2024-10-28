@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 
+
 export default function AboutMe() {
 
     const theme = createTheme({
@@ -21,9 +22,11 @@ export default function AboutMe() {
     return (
         <div className={'background'}>
             <div className={'aboutMeContainer'}>
-                <p className={"header"}>About Me</p>
+                <div className={"header"}>
+                    <p >About Me</p>
+                </div>
 
-                    <div className={"headShot"}/>
+                <img src={"./public/AboutMe/Head.png"} alt={"1"}/>
 
                 <p className={"meText"}></p>
 

@@ -45,9 +45,10 @@ export default function ProjectPageTemplate(props:{
 
 
     return(
-        <div className={"container"}  id={props.id}>
+        <div className={"container"} id={props.id}>
+            <div className={"backgroundProj"} style={{filter: props.hue}}/>
             <div className={"project"}>
-                <div className={"backgroundProj"} style={{filter:props.hue}}/>
+
                 <div className={"ribbon"}>
                     <p className={"ribbonTextHeader"}>Role:
                         <p className={"ribbonText"}>{props.role}</p>
@@ -60,16 +61,16 @@ export default function ProjectPageTemplate(props:{
 
 
                     <p className={"ribbonTextHeader"}>Team Size:
-                    <p className={"ribbonText"}>{props.teamSize}</p>
+                        <p className={"ribbonText"}>{props.teamSize}</p>
                     </p>
 
 
                     <p className={"ribbonTextHeader"}>Time Frame:
-                    <p className={"ribbonText"}>{props.timeframe}</p>
+                        <p className={"ribbonText"}>{props.timeframe}</p>
                     </p>
 
                     <p className={"ribbonTextHeader"}>Dates:
-                    <p className={"ribbonText"}>{props.date}</p>
+                        <p className={"ribbonText"}>{props.date}</p>
                     </p>
 
                 </div>
@@ -83,18 +84,21 @@ export default function ProjectPageTemplate(props:{
 
                     <List className={"contributionText"}>
                         {
-                            props.contributions.map((item, i) => <Contributions key={i} item={item} />)
+                            props.contributions.map((item, i) => <Contributions key={i} item={item}/>)
                         }
                     </List>
 
                 </div>
+
+
+
                 <div className={"thirdColumn"}>
-                    <div className={"carousel"} >
-                    <Carousel autoPlay={true} animation={"fade"} navButtonsAlwaysVisible={true}>
-                        {
-                            props.carouselItems.map( (item, i) => <Item key={i} item={item} /> )
-                        }
-                    </Carousel>
+                    <div className={"carousel"}>
+                        <Carousel autoPlay={true} animation={"fade"} navButtonsAlwaysVisible={true}>
+                            {
+                                props.carouselItems.map((item, i) => <Item key={i} item={item}/>)
+                            }
+                        </Carousel>
                     </div>
 
 
@@ -105,7 +109,7 @@ export default function ProjectPageTemplate(props:{
 
                     <div className={"linkBar"}>
                         {
-                            props.linkItems.map( (item, i) => <LinkItemButton key={i} item={item} />)
+                            props.linkItems.map((item, i) => <LinkItemButton key={i} item={item}/>)
                         }
                     </div>
                 </div>
@@ -129,7 +133,7 @@ function Contributions(props: ContributionProps) {
     return (
         <ThemeProvider theme={theme}>
             <ListItem dense={true}>
-                <ListItemText primary={"- " + props.item} />
+                <ListItemText primary={"- " + props.item}/>
             </ListItem>
         </ThemeProvider>
     );
