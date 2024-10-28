@@ -13,6 +13,7 @@ export default function AboutMe() {
         typography: {
             fontFamily: [
                 'Garamond',
+                'Times New Roman',
                 'sans-serif',
             ].join(','),
         },

@@ -124,6 +124,7 @@ function Contributions(props: ContributionProps) {
         typography: {
             fontFamily: [
                 'Garamond',
+                'Times New Roman',
                 'sans-serif',
             ].join(','),
             fontSize: 20
@@ -144,6 +145,7 @@ function LinkItemButton(props: LinkItemProps) {
         typography: {
             fontFamily: [
                 'Garamond',
+                'Times New Roman',
                 'sans-serif',
             ].join(','),
         },
