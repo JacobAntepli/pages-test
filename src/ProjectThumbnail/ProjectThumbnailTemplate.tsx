@@ -1,6 +1,5 @@
 import "./ProjectThumbnailTemplate.css"
 import { Link } from "react-router-dom";
-import gl2 from "../assets/ProjectsAssets/gl2.png"
 
 
 export default function ProjectThumbnailTemplate(props:{
