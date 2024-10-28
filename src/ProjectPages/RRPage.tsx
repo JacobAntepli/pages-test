@@ -26,19 +26,19 @@ export default function RRPage() {
 
     const items:CarouselItem[] = [
         {
-            imgUrl: "../assets/ProjectsAssets/RR/RRTitlePage.jpg",
+            imgUrl: "src/assets/ProjectsAssets/RR/RRTitlePage.jpg",
 
         },
         {
-            imgUrl: "../assets/ProjectsAssets/RR/R1.png",
+            imgUrl: "src/assets/ProjectsAssets/RR/R1.png",
 
         },
         {
-            imgUrl: "../assets/ProjectsAssets/RR/R2.png",
+            imgUrl: "src/assets/ProjectsAssets/RR/R2.png",
 
         },
         {
-            imgUrl: "../assets/ProjectsAssets/RR/R3.png",
+            imgUrl: "src/assets/ProjectsAssets/RR/R3.png",
 
         },
     ];

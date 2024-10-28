@@ -9,7 +9,7 @@ export default function RRThumbnail(){
             summary = {"An animal themed rhythm game made as part of Mass Digi’s Digistudio alongside students from various other universities. "}
             tools = {"C#, Unity"}
             role = {"Programmer"}
-            imageURL = {"../assets/ProjectsAssets/RR/RRThumbNail.PNG"}
+            imageURL = {"src/assets/ProjectsAssets/RR/RRThumbNail.PNG"}
             id = {"RockOnRacoon"}
             date={"January - May 2024"}
         />
