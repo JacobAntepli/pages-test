@@ -159,7 +159,7 @@ function LinkItemButton(props: LinkItemProps) {
 
 function Item(props: CarouselItemProps) {
     return (
-        <img src={props.item.imgUrl} className={"images"} alt={"image1"} />
+        <div  className={"images"} id={props.item.imgUrl} />
     );
 }
 

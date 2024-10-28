@@ -105,6 +105,58 @@
 .images{
     width: 550px;
     height: 350px;
+    background-size: 550px 350px;
+
+}
+
+#B1.images{
+    background-image: url("../assets/ProjectsAssets/Brigham/B1.png");
+}
+
+#B2.images{
+    background-image: url("../assets/ProjectsAssets/Brigham/B2.png");
+}
+
+#B3.images{
+    background-image: url("../assets/ProjectsAssets/Brigham/B3.png");
+}
+
+#B4.images{
+    background-image: url("../assets/ProjectsAssets/Brigham/B4.png");
+}
+
+#RRTitlePage.images{
+    background-image: url("../assets/ProjectsAssets/RR/RRTitlePage.jpg");
+
+}
+
+#R1.images{
+    background-image: url("../assets/ProjectsAssets/RR/R1.png");
+
+}
+#R2.images{
+    background-image: url("../assets/ProjectsAssets/RR/R2.png");
+
+}
+#R3.images{
+    background-image: url("../assets/ProjectsAssets/RR/R3.png");
+
+}
+
+#DFThumbnail.images{
+    background-image: url("../assets/ProjectsAssets/DragonFly/DFThumbnail.png");
+}
+
+#DF1.images{
+    background-image: url("../assets/ProjectsAssets/DragonFly/DF1.png");
+
+}
+#DF2.images{
+    background-image: url("../assets/ProjectsAssets/DragonFly/DF2.png");
+
+}
+#DF3.images{
+    background-image: url("../assets/ProjectsAssets/DragonFly/DF3.png");
 
 }
 
