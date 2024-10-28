@@ -42,7 +42,7 @@
 }
 
 .name{
-    font-family: "Garamond", serif;
+    font-family: "Garamond","Times New Roman", serif;
     font-size: xx-large;
     padding-left: 100px;
     font-weight: bolder;
@@ -50,7 +50,7 @@
     margin-top: 15px;
 }
 .title{
-    font-family: "Garamond", serif;
+    font-family: "Garamond","Times New Roman", serif;
     font-size: large;
     margin-top: -5px;
     font-weight: bold;
@@ -75,7 +75,7 @@
 .buttonText{
 
     font-size: 20px;
-    font-family: "Garamond", serif;
+    font-family: "Garamond","Times New Roman", serif;
     font-weight: bold;
     color: white;
     margin-top: -5px;
