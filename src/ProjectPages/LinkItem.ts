@@ -1,11 +1,13 @@
 
 
 
-import {ReactJSXElement} from "@emotion/react/types/jsx-namespace";
+import { ReactNode } from 'react';
+
+
 
 export interface LinkItem {
     text:string
     linkUrl: string
-    icon:  ReactJSXElement
+    icon:  ReactNode
 
 }

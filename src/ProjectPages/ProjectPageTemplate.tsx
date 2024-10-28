@@ -13,6 +13,20 @@ import ListItemText from '@mui/material/ListItemText';
 
 //import {useNavigate} from "react-router-dom";
 
+
+interface ContributionProps {
+    item: string;
+}
+
+interface LinkItemProps {
+    item: LinkItem;
+}
+
+interface CarouselItemProps {
+    item: CarouselItem;
+}
+
+
 export default function ProjectPageTemplate(props:{
     title:string,
     role:string,
@@ -101,32 +115,27 @@ export default function ProjectPageTemplate(props:{
     );
 }
 
-
-function Contributions(props){
-
+function Contributions(props: ContributionProps) {
     const theme = createTheme({
         typography: {
             fontFamily: [
                 'Garamond',
                 'sans-serif',
             ].join(','),
-            fontSize:20
+            fontSize: 20
         },
     });
 
-    return(
-
+    return (
         <ThemeProvider theme={theme}>
             <ListItem dense={true}>
-                <ListItemText primary={"- "+props.item} />
+                <ListItemText primary={"- " + props.item} />
             </ListItem>
         </ThemeProvider>
-
     );
 }
 
-function LinkItemButton(props){
-
+function LinkItemButton(props: LinkItemProps) {
     const theme = createTheme({
         typography: {
             fontFamily: [
@@ -136,24 +145,22 @@ function LinkItemButton(props){
         },
     });
 
-    return(
+    return (
         <ThemeProvider theme={theme}>
             <Button startIcon={props.item.icon}
                     className={"linkButton"}
                     variant="contained"
                     onClick={() => window.open(props.item.linkUrl, "_blank")}>
                 {props.item.text}
-
             </Button>
         </ThemeProvider>
     );
 }
 
-
-function Item(props)
-{
+function Item(props: CarouselItemProps) {
     return (
-        <img src={props.item.imgUrl} className={"images"} alt={"image1"}/>
+        <img src={props.item.imgUrl} className={"images"} alt={"image1"} />
     );
 }
+
 
