@@ -1,5 +1,7 @@
 import "./ProjectThumbnailTemplate.css"
 import { Link } from "react-router-dom";
+import gl2 from "../assets/ProjectsAssets/gl2.png"
+
 
 export default function ProjectThumbnailTemplate(props:{
     title: string,
@@ -14,7 +16,7 @@ export default function ProjectThumbnailTemplate(props:{
         <Link to={"/pages-test/"+props.id}>
 
             <div className={"book"}>
-                <img src={"/pages-test/assets/ProjectsAssets/gl2.png"} className={"bookGold"} alt={"gold"}/>
+                {<img src={"/pages-test/src/assets/ProjectsAssets/gl2.png"} className={"bookGold"} alt={"gold"}/>}
                 <img src={"/assets/ProjectsAssets/bl4.png"} className={"bookCover"} alt={"cover"} id={props.id}/>
                 <div className={"topSection"}>
                     <p className={"titleText"}>{props.title}</p>
