@@ -17,19 +17,24 @@
 }
 
 .bookGold{
-
+    background-image: url("../assets/ProjectsAssets/gl2.png");
     position: absolute;
     left: 0;
     top: 0;
     z-index: 1;
+    height: 612px;
+    width: 459px;
     transform: scale(1.1);
 }
 
 .bookCover{
+    background-image: url("../assets/ProjectsAssets/bl4.png");
     position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
+    height: 612px;
+    width: 459px;
     transform: scale(1.1);
 }
 
@@ -55,9 +60,29 @@
 }
 
 .thumbnail{
+
     width: 150px;
     height: 150px;
     border: medium solid black;
+    filter: hue-rotate(0deg);
+    background-size: 150px 150px;
+}
+
+#RockOnRacoon.thumbnail{
+    background-image: url("../assets/ProjectsAssets/RR/RRThumbNail.PNG");
+
+
+}
+
+#DragonFly.thumbnail{
+    background-image: url("../assets/Thumbnails/DFThumbnail2.png");
+
+
+}
+
+#Brigham.thumbnail{
+    background-image: url("../assets/Thumbnails/BrighamThumbnail2.png");
+
 }
 
 .titleText{
@@ -121,11 +146,10 @@
     text-overflow: ellipsis;
 }
 
-#RockOnRacoon{
-    filter: hue-rotate(200deg);
+#RockOnRacoon.bookCover{
+    filter: hue-rotate(210deg);
 }
 
-#DragonFly{
+#DragonFly.bookCover{
     filter: hue-rotate(100deg);
-
 }

@@ -22,9 +22,9 @@ export default function AboutMe() {
         <div className={'background'}>
             <div className={'aboutMeContainer'}>
                 <p className={"header"}>About Me</p>
-                <div className={"headShotContainer"}>
-                    <img src={"src/assets/About Me/Head.png"} alt={"Head Shot"} className={"headShot"}/>
-                </div>
+
+                    <div className={"headShot"}/>
+
                 <p className={"meText"}></p>
 
 

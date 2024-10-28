@@ -18,17 +18,20 @@
 }
 
 .backgroundProj{
+    background-image: url("../assets/GeneralAssets/Background.png");
+    background-size: cover;
     position: fixed;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+
     z-index: -1;
 }
 
 
 .ribbon{
-    background-image: url("src/assets/ProjectsAssets/Ribbon2.png");
+    background-image: url("../assets/ProjectsAssets/Ribbon2.png");
     background-size: cover;
     padding-top: 5px;
     height: 609px;
