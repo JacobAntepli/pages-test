@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-image: url("src/assets/NavBarAssets/NavBackground.png");
+    background-image: url("../assets/NavBarAssets/NavBackground.png");
     background-size: 100vw 110px;
     z-index: 2;
     height: 100px;
@@ -31,7 +31,7 @@
     top: 100px;
     left: 0;
     width: 100%;
-    background-image: url("src/assets/NavBarAssets/GoldBand.png");
+    background-image: url("../assets/NavBarAssets/GoldBand.png");
     background-size: 100vw 110px;
     z-index: 2;
     height: 14px;

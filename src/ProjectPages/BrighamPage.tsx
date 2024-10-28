@@ -16,19 +16,19 @@ export default function BrighamPage(){
 
     const items:CarouselItem[] = [
         {
-            imgUrl: "src/assets/ProjectsAssets/Brigham/B1.png",
+            imgUrl: "../assets/ProjectsAssets/Brigham/B1.png",
 
         },
         {
-            imgUrl: "src/assets/ProjectsAssets/Brigham/B2.png",
+            imgUrl: "../assets/ProjectsAssets/Brigham/B2.png",
 
         },
         {
-            imgUrl: "src/assets/ProjectsAssets/Brigham/B3.png",
+            imgUrl: "../assets/ProjectsAssets/Brigham/B3.png",
 
         },
         {
-            imgUrl: "src/assets/ProjectsAssets/Brigham/B4.png",
+            imgUrl: "../assets/ProjectsAssets/Brigham/B4.png",
 
         },
     ];
