@@ -46,7 +46,7 @@ export default function ProjectPageTemplate(props:{
 
     return(
         <div className={"container"} id={props.id}>
-            <div className={"backgroundProj"} style={{filter: props.hue}}/>
+            <img src={"./assets/GeneralAssets/Background.png"} alt={"Background"} className={"backgroundProj"} style={{filter: props.hue}}/>
             <div className={"project"}>
 
                 <div className={"ribbon"}>
@@ -163,7 +163,7 @@ function LinkItemButton(props: LinkItemProps) {
 
 function Item(props: CarouselItemProps) {
     return (
-        <div  className={"images"} id={props.item.imgUrl} />
+        <img  src={props.item.imgUrl} className={"images"}  alt={"Image"} />
     );
 }
 

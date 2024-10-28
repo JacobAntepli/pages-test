@@ -26,19 +26,19 @@ export default function RRPage() {
 
     const items:CarouselItem[] = [
         {
-            imgUrl: "RRTitlePage",
+            imgUrl: "./assets/ProjectsAssets/RR/RRTitlePage.jpg",
 
         },
         {
-            imgUrl: "R1",
+            imgUrl: "./assets/ProjectsAssets/RR/R1.png",
 
         },
         {
-            imgUrl: "R2",
+            imgUrl: "./assets/ProjectsAssets/RR/R2.png",
 
         },
         {
-            imgUrl: "R3",
+            imgUrl: "./assets/ProjectsAssets/RR/R3.png",
 
         },
     ];

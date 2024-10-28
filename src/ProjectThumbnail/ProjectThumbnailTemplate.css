@@ -17,7 +17,6 @@
 }
 
 .bookGold{
-    background-image: url("../assets/ProjectsAssets/gl2.png");
     position: absolute;
     left: 0;
     top: 0;
@@ -28,7 +27,7 @@
 }
 
 .bookCover{
-    background-image: url("../assets/ProjectsAssets/bl4.png");
+
     position: absolute;
     left: 0;
     top: 0;
@@ -64,26 +63,9 @@
     width: 150px;
     height: 150px;
     border: medium solid black;
-    filter: hue-rotate(0deg);
-    background-size: 150px 150px;
 }
 
-#RockOnRacoon.thumbnail{
-    background-image: url("../assets/ProjectsAssets/RR/RRThumbNail.PNG");
 
-
-}
-
-#DragonFly.thumbnail{
-    background-image: url("../assets/Thumbnails/DFThumbnail2.png");
-
-
-}
-
-#Brigham.thumbnail{
-    background-image: url("../assets/Thumbnails/BrighamThumbnail2.png");
-
-}
 
 .titleText{
     margin-top: 0px;

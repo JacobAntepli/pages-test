@@ -3,8 +3,6 @@ import {createTheme, ThemeProvider} from "@mui/material";
 import Button from "@mui/material/Button";
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import headShot from "../assets/AboutMe/Head.png"
-
 
 
 
@@ -21,16 +19,21 @@ export default function AboutMe() {
     });
 
     return (
-        <div className={'background'}>
+        <div className={'backgroundAbout'}>
+            <img src={"./assets/GeneralAssets/Background.png"} alt={"Background"} className={"backgroundProj"}/>
             <div className={'aboutMeContainer'}>
-                <div className={"header"}>
+                <div className={"headerAbout"}>
                     <p>About Me</p>
                 </div>
-
-                <img src={headShot} alt={"Head1"}/>
-                <img src={"./AboutMe/Head.png"} alt={"Head2"}/>
-
-                <p className={"meText"}></p>
+                <div className={"headShotContainer"}>
+                    <img src={"./assets/AboutMe/Head.png"} className={"headShot"} alt={"Head"}/>
+                </div>
+                <div className={"aDescription"}>
+                <p className={"aDescriptionText"}>Hey there! I’m Jacob, a programmer with passion for games from North Carolina.
+                    Currently I'm a student at Worcester Polytechnic Institute with a double major in CS and Interactive Media and Game Design.
+                    In my free time you can usually find me reading or cooking up a storm.
+                    I learned to cook from my Turkish mother when I was kid and my goal is to one day even be half as good as she is.</p>
+                </div>
 
 
                 <p className={"headerSmall"}>Contact Me</p>
@@ -61,7 +64,6 @@ export default function AboutMe() {
 
 
                     </ThemeProvider>
-
                 </div>
 
             </div>

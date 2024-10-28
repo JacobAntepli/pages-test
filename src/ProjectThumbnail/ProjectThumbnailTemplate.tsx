@@ -15,11 +15,11 @@ export default function ProjectThumbnailTemplate(props:{
         <Link to={"/pages-test/"+props.id}>
 
             <div className={"book"}>
-                <div className={"bookGold"}/>
-                <div className={"bookCover"}  id={props.id}/>
+                <img src={"./assets/ProjectsAssets/gl2.png"} className={"bookGold"} alt={"bookgold"}/>
+                <img src={"./assets/ProjectsAssets/bl4.png"} className={"bookCover"}  id={props.id} alt={"bookCover"}/>
                 <div className={"topSection"}>
                     <p className={"titleText"}>{props.title}</p>
-                    <div className={"thumbnail"} id={props.id}/>
+                    <img className={"thumbnail"} src={props.imageURL} alt={"Title"}/>
                     <p className={"toolsText"}>{props.tools}</p>
                 </div>
                 <div className={"bottomSection"}>

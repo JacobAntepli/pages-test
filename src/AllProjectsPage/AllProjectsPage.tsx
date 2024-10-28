@@ -5,7 +5,7 @@ import BrighamThumbnail from "../ProjectThumbnail/BrighamThumbnail.tsx";
 
 export default function AllProjectsPage(){
     return (
-        <div className={'background'}>
+        <div className={'backgroundMain'}>
             <p className={"header"}>
                 All Projects
             </p>

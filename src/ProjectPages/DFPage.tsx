@@ -16,16 +16,16 @@ export default function DFPage(){
 
     const items:CarouselItem[] = [
         {
-            imgUrl: "DFThumbnail",
+            imgUrl: "./assets/ProjectsAssets/DragonFly/DFThumbnail.png",
         },
         {
-            imgUrl: "DF1",
+            imgUrl: "./assets/ProjectsAssets/DragonFly/DF1.png",
         },
         {
-            imgUrl: "DF2",
+            imgUrl: "./assets/ProjectsAssets/DragonFly/DF2.png",
         },
         {
-            imgUrl: "DF3",
+            imgUrl: "./assets/ProjectsAssets/DragonFly/DF3.png",
         },
 
 

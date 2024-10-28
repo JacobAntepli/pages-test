@@ -11,17 +11,16 @@ import BrighamThumbnail from "../ProjectThumbnail/BrighamThumbnail.tsx";
 export default function MainPage(){
     return(
 
-        <div className={'background'}>
-            <p className={"header"}>
-                Featured Work
-            </p>
+        <div className={"backgroundMain"}>
+
+            <p className={"header"}>Featured Work</p>
             <div className={"works"}>
 
                 <RRThumbnail/>
 
                 <DFThumbnail/>
 
-               <BrighamThumbnail/>
+                <BrighamThumbnail/>
 
             </div>
         </div>

@@ -1,5 +1,4 @@
 
-
 import "./NavBar.css"
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
@@ -27,7 +26,7 @@ export default function NavBar(){
             <div className={"navbarBackDrop"}>
                 <div>
                     <p className={"name"}> Jacob Antepli
-                        <p className={"title"}>Programmer & Fullstack Engineer</p>
+                        <p className={"title"}>Programmer & Game Developer</p>
                     </p>
                 </div>
 
