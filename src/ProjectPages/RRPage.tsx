@@ -45,7 +45,8 @@ export default function RRPage() {
 
     const contributions:string[] =["Reworked the entire level system to be modular as to be able to add new features.",
         "Built a custom battle system in which players could face off against any of the enemy bands they’ve beaten with any song from the stages they have beaten.",
-        "Built a system to be able to equip various skins unlocked via getting a high enough rank on certain stages."];
+        "Built a system to be able to equip various skins unlocked via getting a high enough rank on certain stages.",
+        "Created a skin changing system"];
 
 
     return (
