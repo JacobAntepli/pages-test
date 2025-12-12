@@ -26,6 +26,10 @@
     filter: hue-rotate(80deg);
 }
 
+:has(#RB) .navbarBackDrop{
+    filter: hue-rotate(80deg);
+}
+
 .navBarBand{
     position: fixed;
     top: 100px;

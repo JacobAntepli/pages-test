@@ -13,6 +13,7 @@ import AllProjectsPage from "./AllProjectsPage/AllProjectsPage.tsx";
 import AboutMe from "./AboutMePage/AboutMe.tsx";
 import DFPage from "./ProjectPages/DFPage.tsx";
 import BrighamPage from "./ProjectPages/BrighamPage.tsx";
+import RubbishRumble from "./ProjectPages/RubbishRumble.tsx";
 
 function App() {
 
@@ -76,6 +77,15 @@ function App() {
                     element: (
                         <>
                             <BrighamPage/>
+                            <Layout/>
+                        </>
+                    ),
+                },
+                {
+                    path: "/pages-test/Rubbish Rumble",
+                    element: (
+                        <>
+                            <RubbishRumble/>
                             <Layout/>
                         </>
                     ),
