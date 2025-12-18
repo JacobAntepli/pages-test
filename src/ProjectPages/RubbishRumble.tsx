@@ -1,12 +1,25 @@
 import ProjectPageTemplate from "./ProjectPageTemplate.tsx";
 import {LinkItem} from "./LinkItem.ts";
 import {CarouselItem} from "./CarouselItem.ts";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import LinkIcon from "@mui/icons-material/Link";
 //import LinkIcon from "@mui/icons-material/Link";
 
 
 export default function RubbishRumble(){
 
     const links:LinkItem[] = [
+        {
+            linkUrl: "https://youtu.be/v5QzInwX2lM",
+            icon: <YouTubeIcon/>,
+            text:"Trailer"
+        },
+        {
+            linkUrl: "https://awildpipe.itch.io/rubbish-rumble",
+            icon: <LinkIcon/>,
+            text:"Itch Page"
+        },
+
 
     ];
 
