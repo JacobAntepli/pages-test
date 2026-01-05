@@ -3,6 +3,7 @@ import {LinkItem} from "./LinkItem.ts";
 import {CarouselItem} from "./CarouselItem.ts";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkIcon from "@mui/icons-material/Link";
+import GitHubIcon from "@mui/icons-material/GitHub";
 //import LinkIcon from "@mui/icons-material/Link";
 
 
@@ -19,7 +20,11 @@ export default function RubbishRumble(){
             icon: <LinkIcon/>,
             text:"Itch Page"
         },
-
+        {
+            linkUrl: "https://github.com/JacobAntepli/RubbishRumble",
+            icon:<GitHubIcon/>,
+            text:"Github"
+        },
 
     ];
 
