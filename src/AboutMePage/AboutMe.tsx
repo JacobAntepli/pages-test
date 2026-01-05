@@ -58,7 +58,7 @@ export default function AboutMe() {
 
                         <Button startIcon={<LinkedInIcon/>}
                                 variant="contained"
-                                onClick={() => window.open("https://www.linkedin.com/in/jacob-antepli-582845264?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B61LiyYrWQ3mtRdZvbIZDog%3D%3D", "_blank")}>
+                                onClick={() => window.open("https://www.linkedin.com/in/jacob-antepli", "_blank")}>
                             My LinkedIn
 
                         </Button>
