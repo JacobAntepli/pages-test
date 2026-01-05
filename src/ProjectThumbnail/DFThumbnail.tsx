@@ -13,7 +13,7 @@ export default function DFThumbnail(){
             role = {"Programmer"}
             imageURL = {"./assets/Thumbnails/DFThumbnail2.png"}
             id = {"DragonFly"}
-            date={"January-Febuary 2024"}
+            date={"January-February 2024"}
         />
     );
 
